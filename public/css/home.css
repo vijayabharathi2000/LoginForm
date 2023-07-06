@@ -1,0 +1,150 @@
+.img{
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    padding: 0 20px;
+}
+nav .menu a{
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: red;
+}
+img{
+    height: 450px;
+    width: 100%;
+}
+.row{
+    height:450px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    text-align: center;
+    width: 145px;
+    height: 120px;
+    margin-left:0rem;
+    top: -50rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150px;
+    font-weight: 1000;
+    letter-spacing: normal;
+    color: red;
+    position: absolute;
+}
+.headertext{
+   position:absolute;
+   top: -42rem;
+   left: 0rem;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: red;
+   font-weight: 1000;
+   font-size: 3rem;
+}
+.search{
+    position: absolute;
+    top: -35rem;
+    text-align: center;
+}
+.locationBox{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    margin: 20px;
+}
+.searchInput{
+    width: 400px;
+    height: 30px;
+    background-color: white;
+}
+.heading{
+    position: absolute;
+}
+.qs-heading
+{
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.qs-subheading
+{
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+.qs-boxes-container
+{
+    margin-top: 20px;
+    position: absolute;
+    top: 55rem;
+}
+.qs-box
+{
+    padding: 1rem;
+}
+.qs-box-contents
+{
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #fff;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.qs-image
+{
+    width: 160px;
+    height: 160px;
+    margin: 0 29px 0 0;
+}
+.qs-item-heading
+{
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: red
+}
+.qs-item-description
+{
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    max-width: 190px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: blue;
+}
